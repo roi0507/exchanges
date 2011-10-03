@@ -1,0 +1,26 @@
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-03 21:51:35
+project --topLevelPackage com.exchanges --projectName exchanges --java 6
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log closed at 2011-10-03 21:51:35
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-03 21:51:58
+persistence setup --database MYSQL --provider HIBERNATE 
+service --entity ~.domain.Website --interface ~.services.IWebsiteService
+service --entity ~.domain.Website --interface ~.services.IWebsiteService
+service --entity ~.domain.Website --interface ~.services.IWebsiteService
+finder add --finderName url
+finder add --finderName findWebsiteByUrl
+web mvc setup
+security setup
+web mvc scaffold --class ~.web.WebsiteController
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log closed at 2011-10-03 22:52:30
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-03 22:53:11
+say hello --name roi
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log closed at 2011-10-03 22:53:46
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-03 22:55:02
+web mvc install tags
+web mvc scaffold --class ~.web.DummyController --backingType ~.domain.Dummy
+service --entity ~.domain.Dummy --interface ~.services.DummyService
+web mvc scaffold --class ~.web.DummyController --backingType ~.domain.Dummy
+web mvc scaffold --class ~.web.DummyController --backingType ~.domain.Dummy
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log closed at 2011-10-03 23:53:28
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-04 00:15:21
+web mvc scaffold --class ~.web.DummyController --backingType ~.domain.Dummy
